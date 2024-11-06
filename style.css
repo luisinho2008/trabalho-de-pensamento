@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000; /* Cor preta */
+    color: #fff; /* Cor branca para o texto */
+}
+.site-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 30px; /* Adiciona margem direita para mover o texto para a direita */
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right .material-icons {
+    margin-left: 20px;
+    cursor: pointer; /* Cursor muda para pointer ao passar sobre o ícone */
+}
+.search-bar {
+    background-color: #fff; /* Cor branca para o fundo da barra de pesquisa */
+    color: #000; /* Cor preta para o texto */
+    border: none; /* Remove bordas padrão */
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+main {
+    padding: 20px;
+}
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.image-container img {
+    max-width: 90%; /* Diminuir em 10% */
+    height: auto;
+    display: block; /* Para centralizar */
+    margin: 0 auto; /* Para centralizar */
+}
+.image-address {
+    margin-top: 10px; /* Espaço entre a imagem e o endereço */
+    text-align: center; /* Centralizar o texto */
+}
